@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #product .post-entry .post > div {
-  margin-left: 230px;
+  margin-left: 50px;
 }
 #product .post-entry .post > div h3 {
   font-size: 24px;

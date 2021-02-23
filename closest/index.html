@@ -17,21 +17,21 @@
 
 
 	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta property="og:title" content="Conrad Orta's Portfolio" />
+	<meta property="og:image" content="https://github.com/COrtaDev/COrtaDev.github.io/raw/master/images/portfoliothumbnail.jpg" />
+	<meta property="og:url" content="https://cortadev.github.io/" />
+	<meta property="og:site_name" content="Conrad Orta's Online Portfolio" />
+	<meta property="og:description" content="My portfolio features projects I have worked on and the tech stacks I used to build them. There's also some info about me if you want to learn more about my background in Full-Stack Engineering." />
+	<meta name="twitter:title" content="Conrad Orta's Portfolio" />
+	<meta name="twitter:image" content="https://github.com/COrtaDev/COrtaDev.github.io/raw/master/images/portfoliothumbnail.jpg" />
+	<meta name="twitter:url" content="https://cortadev.github.io/" />
+	<meta name="twitter:card" content="summary_large_image" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" type="image/png" href="favicon/35425-9-black-cat-transparent_32x32.ico">
 	<link rel="shortcut icon" type="image/png" href="favicon/35425-9-black-cat-transparent_48x48.ico">
 	<link rel="shortcut icon" type="image/png" href="favicon/35425-9-black-cat-transparent_64x64.ico">
-	
+
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:300,400' rel='stylesheet'
 		type='text/css'>
 
@@ -68,18 +68,18 @@
 						</div>
 						<div class="col-md-6">
 							<ul class="nav text-center">
-								<li class="active"><a href="index.html"><span>Work</span></a></li>
+								<li class="active"><a href="index.html"><span>Projects</span></a></li>
+								<li><a href="services.html">Skills</a></li>
 								<li><a href="inside.html">About</a></li>
-								<!-- <li><a href="services.html">Services</a></li> -->
 								<!-- <li><a href="contact.html">Contact</a></li> -->
 							</ul>
 						</div>
 						<div class="col-md-3">
 							<ul class="social">
-								<li><a href="https://twitter.com/CortaDev"><i class="icon-twitter"></i></a></li>
-								<li><a href="https://github.com/COrtaDev"><i class="icon-github-square"></i></a></li>
-								<li><a href="https://www.linkedin.com/in/conrad-orta-16598014/"><i
-											class="icon-linkedin-square"></i></a></li>
+								<li><a href="https://twitter.com/CortaDev" target="_blank" referrerpolicy="no-referrer"><i class="icon-twitter"></i></a></li>
+								<li><a href="https://github.com/COrtaDev" target="_blank" referrerpolicy="no-referrer"><i class="icon-github-square"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/conrad-orta-16598014/" referrerpolicy="no-referrer"><i
+											class="icon-linkedin-square" target="_blank"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -90,29 +90,20 @@
 		<section id="intro">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 text-center">
 						<div class="intro animate-box">
-							<h2>Conrad Orta's Online Portfolio</h2>
+							<h1>Conrad Orta's Online Portfolio</h1>
+							<h2>Welcome! These are some of the full-stack applications I've worked on.</h2>
 						</div>
 					</div>
 				</div>
 				<div>
 		</section>
-
+		<!-- Project boxes -->
 		<section id="work">
 			<div class="container">
+				
 				<div class="row">
-					<div class="col-md-6">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/disney.png);">
-							<a class="image-popup text-center" href="#">
-								<div class="work-title">
-									<h3>Dizney+</h3>
-									<span>A subscription video on-demand streaming service modeled after Disney+
-									</span>
-								</div>
-							</a>
-						</div>
-					</div>
 					<div class="col-md-6">
 						<div class="fh5co-grid animate-box" style="background-image: url(images/borderlands-3.jpg);">
 							<a class="image-popup text-center" href="#">
@@ -125,7 +116,21 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-8">
+
+					<div class="col-md-6">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/square-image-of-tarot-cards.jpg);">
+							<a class="image-popup text-center" href="https://tarot-cards.herokuapp.com/">
+								<div class="work-title">
+									<h3>Tarot Cards</h3>
+									<span>An interactive Tarot card deck that let's you explore the mysteries of what lies
+										in the past, present, and future...
+									</span>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-6">
 						<div class="fh5co-grid animate-box" style="background-image: url(images/splitwise.png);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
@@ -136,28 +141,19 @@
 								</div>
 							</a>
 						</div>
-					</div>
-					<!-- <div class="col-md-4">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-							<a class="image-popup text-center" href="#">
-								<div class="work-title">
-									<h3>Future Projects</h3>
-									<span>Illustration, Print</span>
-								</div>
-							</a>
-						</div>
-					</div>
 
-					<div class="col-md-12">
-						<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-grid animate-box" style="background-image: url(images/disney.png);">
 							<a class="image-popup text-center" href="#">
 								<div class="work-title">
-									<h3>Ampersand</h3>
-									<span>Illustration, Print</span>
+									<h3>Dizney+</h3>
+									<span>A subscription video on-demand streaming service modeled after Disney+
+									</span>
 								</div>
 							</a>
 						</div>
-					</div> -->
+					</div>
 
 				</div>
 				<div>
